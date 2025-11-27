@@ -1,0 +1,134 @@
+/* Global */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f7f5ff;
+    color: #444;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background: #edeaff;
+    box-shadow: 0 4px 12px rgba(120, 90, 200, 0.15);
+    border-radius: 0 0 20px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    color: #6c5ce7;
+}
+
+.logo span {
+    color: #5b5f97;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #5b5f97;
+    padding: 8px 16px;
+    background: white;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 10px rgba(150, 120, 255, 0.15);
+}
+
+.nav-links li a:hover {
+    background: #dcd6ff;
+    color: #3a2f79;
+    transform: translateY(-3px);
+}
+
+/* HERO */
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #e6e0ff;
+    box-shadow: 0 6px 18px rgba(140, 110, 250, 0.3);
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.hero-text h1 span {
+    color: #6c5ce7;
+}
+
+.primary-btn {
+    padding: 12px 25px;
+    border: none;
+    margin-top: 20px;
+    background: #c8beff;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(100, 60, 200, 0.25);
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    background: #b3a5ff;
+    transform: translateY(-3px);
+}
+
+/* Section Card */
+.section-card {
+    background: #ffffff;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 6px 18px rgba(120, 95, 200, 0.15);
+}
+
+/* Skills */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.skills-list span {
+    padding: 10px 20px;
+    background: #ece8ff;
+    border-radius: 20px;
+    color: #4a3f88;
+    font-size: 14px;
+    box-shadow: 0 3px 8px rgba(120, 95, 200, 0.1);
+}
+
+/* Projects */
+.project-card {
+    margin-top: 25px;
+}
+
+.project-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 5px 18px rgba(100, 60, 200, 0.25);
+    margin-bottom: 10px;
+}
